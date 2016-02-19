@@ -1,0 +1,6 @@
+minecraft:
+  build: .
+  ports:
+    - "25565:25565"
+  volumes:
+    - /d/Minecraft:/minecraft
